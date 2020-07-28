@@ -1,3 +1,4 @@
+import { ApiService } from './services/api.service';
 import { Component } from '@angular/core';
 
 import { Platform } from '@ionic/angular';
@@ -10,7 +11,11 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
   styleUrls: ['app.component.scss']
 })
 export class AppComponent {
+
+  datauser: any;
+
   constructor(
+    private api: ApiService,
     private platform: Platform,
     private splashScreen: SplashScreen,
     private statusBar: StatusBar
@@ -24,4 +29,5 @@ export class AppComponent {
       this.splashScreen.hide();
     });
   }
+
 }

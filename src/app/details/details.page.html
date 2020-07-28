@@ -1,0 +1,39 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Detalhes</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-label>
+    <ion-list>
+      <ion-item>
+        <p>
+          Título:
+          {{movie.title}}
+        </p>
+      </ion-item>
+      <ion-item>
+        <p>
+          Diretor:
+          {{movie.director}}
+        </p>
+      </ion-item>
+      <ion-item>
+        <p>
+          Produtor:
+          {{movie.producer}}
+        </p>
+      </ion-item>
+      <ion-item>
+        <p>
+          Data de lançamento:
+          {{movie.release_date}}
+        </p>
+      </ion-item>
+    </ion-list>
+  </ion-label>
+</ion-content>
