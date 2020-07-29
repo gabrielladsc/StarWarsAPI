@@ -2,11 +2,44 @@ ion-button{
     color : black;
 }
 
-ion-title{
-    margin-left: 65px;
+p{
+    //margin-left: 10px;
+    margin: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-p{
-    font-size: 18px;
-    font-family: Arial;
+ion-back-button{
+    color: white;
+    background-color: black;
+}
+
+ion-title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 60px;
+    color: white;
+    background-color: black;
+}
+
+ion-toolbar{
+    text-align: left;
+}
+
+ion-card{
+    border-top: 2px solid #ffe81f;
+    background-color: #1e1e1e;
+    width: 90%;
+    height: 60px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.background{
+    --background: black;
+}
+
+.new-background-color{
+    --background: black;
 }

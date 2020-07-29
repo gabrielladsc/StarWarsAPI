@@ -1,39 +1,39 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar class="new-background-color">
     <ion-buttons slot="start">
       <ion-back-button defaultHref="/"></ion-back-button>
     </ion-buttons>
-    <ion-title>Detalhes</ion-title>
+    <ion-title>
+      DETALHES
+    </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content class="background">
   <ion-label>
-    <ion-list>
-      <ion-item>
-        <p>
-          Título:
-          {{movie.title}}
-        </p>
-      </ion-item>
-      <ion-item>
-        <p>
-          Diretor:
-          {{movie.director}}
-        </p>
-      </ion-item>
-      <ion-item>
-        <p>
-          Produtor:
-          {{movie.producer}}
-        </p>
-      </ion-item>
-      <ion-item>
-        <p>
-          Data de lançamento:
-          {{movie.release_date}}
-        </p>
-      </ion-item>
-    </ion-list>
+    <ion-card>
+      <p>
+        Título:
+        {{movie.title}}
+      </p>
+    </ion-card>
+    <ion-card>
+      <p>
+        Diretor:
+        {{movie.director}}
+      </p>
+    </ion-card>
+    <ion-card>
+      <p>
+        Produtor:
+        {{movie.producer}}
+      </p>
+    </ion-card>
+    <ion-card>
+      <p>
+        Data de lançamento:
+        {{movie.release_date}}
+      </p>
+    </ion-card>
   </ion-label>
 </ion-content>
