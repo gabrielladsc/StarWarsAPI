@@ -18,24 +18,33 @@ ion-title{
 }
 
 p {
-  font-size: 16px;
-  line-height: 22px;
-  margin: 0;
+  font-size: 18px;
+  color: black;
 }
 
 #container a {
   text-decoration: none;
 }
 
-ion-content{
-  opacity: 0.5;
+.button{
+  background-color: transparent;
 }
 
-ion-card{
+ion-list, ion-container, ion-item, ion-content, p{
+  background-color: transparent;
+}
+
+.starWars{
+  background-color: transparent;
+  position: center;
   width: 100%;
+  .img{
+    position: center;
+    width: 100%;
+    background: url('/assets/starWars.png') no-repeat center center / cover;
+  }
 }
 
-p{
-  font-size: 18px;
-  color: black;
+button{
+  background-color: transparent;
 }

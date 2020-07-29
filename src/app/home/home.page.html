@@ -6,7 +6,10 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true" >
+<ion-content [fullscreen]="true">
+  <div class="starWars">
+    <div class="img"></div>
+  </div>
   <ion-list>
     <ion-item button *ngFor="let data of datauser" (click)="showDetail(data)">
       <p>
