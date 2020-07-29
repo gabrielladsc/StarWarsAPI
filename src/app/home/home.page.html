@@ -1,20 +1,18 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Filmes Star Wars
+      <img src="/assets/logo-.png">
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <div class="starWars">
-    <div class="img"></div>
-  </div>
-  <ion-list>
+<ion-content [fullscreen]="true" color="primary">
+  <div class="title">FILMES</div>
+  <ion-card>
     <ion-item button *ngFor="let data of datauser" (click)="showDetail(data)">
       <p>
         {{data.title}}
       </p>
     </ion-item>
-  </ion-list>
+  </ion-card>
 </ion-content>

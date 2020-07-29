@@ -17,11 +17,6 @@ ion-title{
   line-height: 26px;
 }
 
-p {
-  font-size: 18px;
-  color: black;
-}
-
 #container a {
   text-decoration: none;
 }
@@ -30,21 +25,35 @@ p {
   background-color: transparent;
 }
 
-ion-list, ion-container, ion-item, ion-content, p{
-  background-color: transparent;
-}
-
-.starWars{
-  background-color: transparent;
+img{
+  background-color: black;
   position: center;
   width: 100%;
-  .img{
-    position: center;
-    width: 100%;
-    background: url('/assets/starWars.png') no-repeat center center / cover;
-  }
+}
+
+ion-title, ion-content, ion-card{
+  background-color: black !important;
+}
+
+ion-item{
+  border-top: 3px solid yellow;
+  margin-top: 5px;
+}
+
+p{
+  text-align: center;
+  color: black;
+  font-size: 18px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 button{
   background-color: transparent;
+}
+
+.title{
+  color: white;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 24px;
 }
